@@ -32,8 +32,8 @@ public class FeignDeptController {
 	 */
 	@GetMapping("deptList")
 	public String deptList(HttpServletRequest request) {
-		System.err.println("finge-dept服务deptLisr方法被调用");
-		return "成功调用finge服务deptLisr方法";
+		System.err.println("finge-dept服务deptList方法被调用");
+		return "成功调用finge服务deptList方法";
 	}
 
 	/**
